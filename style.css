@@ -183,6 +183,24 @@ h1 {
   opacity: 0.9;
 }
 
+.donate-btn {
+  display: inline-block;
+  margin-left: 15px;
+  padding: 16px 40px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(120, 220, 255, 0.35);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  backdrop-filter: blur(4px);
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+.donate-btn:hover {
+  transform: translateY(-2px);
+  background: rgba(120, 220, 255, 0.18);
+}
+
 .compat {
   margin-top: 20px;
   font-size: 14px;
